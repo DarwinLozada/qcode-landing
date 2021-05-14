@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# Local design assets
+/design_assets
+
 # next.js
 /.next/
 /out/
