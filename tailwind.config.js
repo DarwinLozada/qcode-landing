@@ -17,6 +17,10 @@ module.exports = {
       borderRadius: {
         brand: "4px",
       },
+
+      screens: {
+        "3xl": "1700px",
+      },
     },
   },
   variants: {
