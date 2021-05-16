@@ -29,25 +29,27 @@ export default function QuienesSomosSection() {
         </p>
       </div>
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-5 md:grid-rows-2 mt-24 relative md:mt-48 z-20">
-        <ValueCard
-          Icon={ChartIcon}
-          title="Profesionalismo"
-          text="Nec nisl morbi gravida ultrices amet, pharetra, nullam. Integer dui mi vulputate vitae fringilla egestas placerat pellentesque. "
-        />
-        <div className="flex md:row-start-2 md:row-end-3 md:col-start-2 md:col-end-3 justify-center">
+        <li>
+          <ValueCard
+            Icon={ChartIcon}
+            title="Profesionalismo"
+            text="Nec nisl morbi gravida ultrices amet, pharetra, nullam. Integer dui mi vulputate vitae fringilla egestas placerat pellentesque. "
+          />
+        </li>
+        <li className="flex md:row-start-2 md:row-end-3 md:col-start-2 md:col-end-3 justify-center">
           <ValueCard
             Icon={HeartIcon}
             title="Pasión"
             text="Nec nisl morbi gravida ultrices amet, pharetra, nullam. Integer dui mi vulputate vitae fringilla egestas placerat pellentesque. "
           />
-        </div>
-        <div className="flex justify-center md:col-start-3">
+        </li>
+        <li className="flex justify-center md:col-start-3">
           <ValueCard
             Icon={ClockIcon}
             title="Puntualidad"
             text="Nec nisl morbi gravida ultrices amet, pharetra, nullam. Integer dui mi vulputate vitae fringilla egestas placerat pellentesque. "
           />
-        </div>
+        </li>
       </ul>
     </section>
   );
